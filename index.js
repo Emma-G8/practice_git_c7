@@ -45,16 +45,16 @@ loadModules();
 // // console.log(second);
 // // console.log(rest);
 
-// const myObj = {
-//   name: "Emmanuel",
-//   age: 38,
-//   occupation: "Software Engineer"
-// };
+const myObj = {
+  name: "Emmanuel",
+  age: 38,
+  occupation: "Software Engineer"
+};
 
-// const { name, age, occupation } = myObj;
-// console.log(name);
-// console.log(age);
-// console.log(occupation);
+const { name, age, occupation } = myObj;
+console.log(name);
+console.log(age);
+console.log(occupation);
 
 // console.log(vat);
 // console.log(tin);
