@@ -23,12 +23,12 @@
 // // });
 
 // // // Awaiting Dynamic Imports for our_modules folder
-// // async function loadModules() {
-// //   const modules = await import('./our_modules/index.js');
-// //   console.log(modules.payments());
-// //   console.log(modules.invoices());
-// // }
-// // loadModules();
+async function loadModules() {
+  const modules = await import('./our_modules/index.js');
+  console.log(modules.payments());
+  console.log(modules.invoices());
+}
+loadModules();
 
 // // Top-level await for Dynamic Imports for our_modules folder
 // const modules = await import('./our_modules/index.js');
