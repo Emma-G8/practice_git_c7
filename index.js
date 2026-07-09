@@ -1,4 +1,4 @@
-// import {vat, amount, payment} from './module.js';
+import {vat, amount, payment} from './module.js';
 
 // // import {bookName, bookPrice} from './book.js'; // see alternative in nextline
 // import * as bookImport from './book.js';
@@ -45,16 +45,16 @@ loadModules();
 // // console.log(second);
 // // console.log(rest);
 
-// const myObj = {
-//   name: "Emmanuel",
-//   age: 38,
-//   occupation: "Software Engineer"
-// };
+const myObj = {
+  name: "Emmanuel",
+  age: 38,
+  occupation: "Software Engineer"
+};
 
-// const { name, age, occupation } = myObj;
-// console.log(name);
-// console.log(age);
-// console.log(occupation);
+const { name, age, occupation } = myObj;
+console.log(name);
+console.log(age);
+console.log(occupation);
 
 // console.log(vat);
 // console.log(tin);
@@ -82,7 +82,7 @@ loadModules();
 
 // try {
 //     const result = await riskyOperation();
-//     return result;
+//     return result; //This line gives error when the block of code is uncommented
 //  } catch (error) {
 //     console.error(error);
 //     throw new Error('Operation failed');
@@ -145,3 +145,5 @@ setTimeout(() => {
 }, 2000);
 
 console.log('We are still running the code after the try-catch block');
+console.log('We are everywhere you go');
+console.log('We are MTN, The Yello Network');
