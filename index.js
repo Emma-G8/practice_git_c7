@@ -145,3 +145,5 @@ setTimeout(() => {
 }, 2000);
 
 console.log('We are still running the code after the try-catch block');
+console.log('We are everywhere you go');
+console.log('We are MTN, The Yello Network');
