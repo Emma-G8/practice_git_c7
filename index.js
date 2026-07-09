@@ -1,4 +1,4 @@
-// import {vat, amount, payment} from './module.js';
+import {vat, amount, payment} from './module.js';
 
 // // import {bookName, bookPrice} from './book.js'; // see alternative in nextline
 // import * as bookImport from './book.js';
@@ -82,7 +82,7 @@ console.log(occupation);
 
 // try {
 //     const result = await riskyOperation();
-//     return result;
+//     return result; //This line gives error when the block of code is uncommented
 //  } catch (error) {
 //     console.error(error);
 //     throw new Error('Operation failed');
