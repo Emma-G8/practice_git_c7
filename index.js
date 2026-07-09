@@ -144,6 +144,6 @@ setTimeout(() => {
     console.log("Yeah!!! Today's test gonna be Easy - Peasy");
 }, 2000);
 
-console.log('We are still writing the code after the try-catch block');
+console.log('We are still reading the code after the try-catch block');
 console.log('We are everywhere you go');
 console.log('We are MTN, The Yello Network');
