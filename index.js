@@ -8,10 +8,10 @@ import {vat, amount, payment} from './module.js';
 
 // import {vat as tin, meat} from './food.js';
 
-// // // importing from our_modules folder
-// // import { payments } from './our_modules/payments.js';
-// // import { invoices } from './our_modules/invoice.js';
-// // import { payments, invoices } from './our_modules/index.js';
+// importing from our_modules folder
+import { payments } from './our_modules/payments.js';
+import { invoices } from './our_modules/invoice.js';
+import { payments, invoices } from './our_modules/index.js';
 
 // // //ALTERNATIVELY, you can import all the exports from the index.js file in our_modules folder
 // // import * as ourModules from './our_modules/index.js';
