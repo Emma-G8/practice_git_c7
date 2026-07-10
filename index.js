@@ -8,10 +8,10 @@ import {vat, amount, payment} from './module.js';
 
 // import {vat as tin, meat} from './food.js';
 
-// // // importing from our_modules folder
-// // import { payments } from './our_modules/payments.js';
-// // import { invoices } from './our_modules/invoice.js';
-// // import { payments, invoices } from './our_modules/index.js';
+// importing from our_modules folder
+import { payments } from './our_modules/payments.js';
+import { invoices } from './our_modules/invoice.js';
+import { payments, invoices } from './our_modules/index.js';
 
 // // //ALTERNATIVELY, you can import all the exports from the index.js file in our_modules folder
 // // import * as ourModules from './our_modules/index.js';
@@ -144,6 +144,6 @@ setTimeout(() => {
     console.log("Yeah!!! Today's test gonna be Easy - Peasy");
 }, 2000);
 
-console.log('We are still running the code after the try-catch block');
+console.log('We are still reading the code after the try-catch block');
 console.log('We are everywhere you go');
 console.log('We are MTN, The Yello Network');
